@@ -1,0 +1,17 @@
+.hero-custom-video {
+    & {
+        position: relative;
+        overflow: hidden;
+        background-image: url('https://beatforbeat.com.br/site/wp-content/uploads/2020/05/Kasino.jpg');
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .hero-body {
+        & {
+            position: relative;
+            z-index: 1;
+            background: rgb(0 0 0 / 50%);
+        }
+    }
+}
